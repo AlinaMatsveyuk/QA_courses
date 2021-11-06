@@ -1,0 +1,13 @@
+The main elements of the bug report structure include:
+1.ID
+2.Summary/Title
+3.Description:
+  -Steps to reproduce
+  -Expected result
+  -Actual result
+4.Environment 
+5.Attachment
+7.Component 
+8.Severity
+9.Priority
+10.Assignee
