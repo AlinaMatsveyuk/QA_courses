@@ -1,7 +1,7 @@
 --1. Вывести все поля и все строки.
 select * from students;
 
-/*--2. Вывести всех студентов в таблице
+--2. Вывести всех студентов в таблице
 select name from students;
 
 --3. Вывести только Id пользователей
@@ -29,12 +29,12 @@ select * from students where created_on = '2021-03-26 00:00:00';
 select * from students where name like '%Анна%';
 
 --11. Вывести пользователей где в имени в конце есть 8
-select * from students where name like '%8';*/
+select * from students where name like '%8';
 
 --12. Вывести пользователей где в имени в есть буква а
-select * from students where name like '%a%' OR name LIKE '%а';
+select * from students where name like '%a%' or name like '%а';
 
-/*--13. Вывести пользователей которые были созданы 2021-07-12 00:00:00
+--13. Вывести пользователей которые были созданы 2021-07-12 00:00:00
 select name, created_on from students where created_on = '2021-07-12 00:00:00';
 
 --14. Вывести пользователей которые были созданы 2021-07-12 00:00:00 и имеют пароль 1m313
@@ -92,5 +92,5 @@ select count(id) from students;
 select id, name, created_on from students order by created_on;
 
 --14. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля
-select id, name, created_on from students order by created_on desc;*/
+select id, name, created_on from students order by created_on desc;
 
