@@ -14,7 +14,7 @@ WHERE mounthly_salary < 2000;
 --3 Вывести все зарплатные позиции, но работник по ним не назначен
 SELECT es.employee_id, s.mounthly_salary, e.employee_name 
 FROM employees e
-RIGHT  JOIN employee_salary es ON es.employee_id = e.id
+RIGHT JOIN employee_salary es ON es.employee_id = e.id
 JOIN salary s ON es.salary_id = s.id
 WHERE employee_name IS NULL;
 
