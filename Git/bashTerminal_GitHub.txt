@@ -1,4 +1,4 @@
-1. Создать файл “new.json” 
+﻿1. Создать файл “new.json” 
 $ touch new.json
 2. Добавить файл под гит.
 $ git add new.json
@@ -44,8 +44,6 @@ $ git push
 $ git add "HW_1_(bashTerminal).txt"
 $ git commit -m "add homework1"
 $ git push
-!!!Добавился файл с неверной кодировкой!!!!
-!!!Было исправлено, добавлен новый коммит с сообщением "file's encoding was changed"!!!!
 18. В веб интерфейсе GitHub создать файл new3.txt.
 Click "Add file"
 Click "Create new file"
@@ -60,7 +58,6 @@ $ git pull origin main
 Click "Edit this file"
 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 Click "Commit new file"  
-!!!!Затупила там))) Поэтому два коммита!!!!
 24. Синхронизировать внешний и локальный репозитории 
 $ git pull origin main
 25. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
